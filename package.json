@@ -1,0 +1,12 @@
+{
+  "name": "drawing-game-judge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI judge backend for the Roblox drawing game",
+  "engines": { "node": ">=20" },
+  "scripts": { "try-render": "node scripts/try-render.js" },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.70.0",
+    "sharp": "^0.33.5"
+  }
+}
